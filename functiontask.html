@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- //1.w.a.parameterize function which will print addition of any five number -->
+    <script>
+        function additionOfFiveNum(n1,n2,n3,n4,n5)
+        {
+            return n1+n2+n3+n4+n5;
+        }
+        document.write(additionOfFiveNum(2,2,2,2,2));
+        document.write("<br>");
+    </script>
+
+<!-- 2.w.a.parameterize function which will print area of circle by passing radius value as parameter -->
+    <script>
+        function areaOfCircle(r)
+        {
+            return 3.14*r*r ;
+        }
+        document.write(areaOfCircle(2));
+        document.write("<br>");
+    </script>
+
+<!-- 3.w.a.parameterize function which will print your fullname by passinf three parameter as fname,mname,lname -->
+
+<script>
+    function fullName(fname,mname,lname)
+    {
+        return fname+mname+lname;
+    }
+    document.write(fullName("Arpita ","Sanjay ","Teldhune"));
+    document.write("<br>");
+</script>
+
+<!-- 4.w.a.parameterize function which will return average of  4 number -->
+<script>
+    function average(a,b,c,d)
+    {
+        return 4/(a+b+c+d);
+    }
+    document.write(average(5,7,4,5));
+    document.write("<br>");
+</script>
+
+<!--5. w.a.parameterize function which will check given numnber is even or odd -->
+<script>
+    function evenOrOdd(n)
+    {
+        if(n%2==0)
+        {
+            return (n+"Even Number");
+        }else{
+            return (n+"Odd Number");
+        }
+    }
+    document.write(evenOrOdd(11));
+    document.write("<br>");
+</script>
+
+<!-- //1.w.a function which will check enter alphabet is vowel or consonent -->
+<script>
+    function isVowel(x)
+    {
+
+    if(x == "A" || x == "a" || x == "E" || x == "e" || x == "I" || x == "i" || x == "O" || x == "o" || x == "U" || x == "u" ) 
+    {
+        return "isVowel";
+    }
+    else{
+        return "isConsonent";
+    }
+return result;
+
+}
+document.write(isVowel("A"));
+document.write("<br>");
+</script>
+<!-- 2.w a.programe which will check wether he/she is friend or not. -->
+
+<script>
+    function friend(f)
+    {
+
+    if(f == "Shirish" || f == "Pratik" || f == "Danny" || f == "Joel" || f == "Utkarsh" )
+    {
+        return "Is my friend";
+    }
+    else{
+        return "Not my friend";
+    }
+return result;
+}
+document.write(friend("Shirish"));
+</script>
+</body>
+</html>
